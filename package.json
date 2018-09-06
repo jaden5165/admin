@@ -10,8 +10,10 @@
     "build": "node build/build.js",
     "build:report": "npm_config_report=true npm run build",
     "lint": "eslint --ext .js,.vue src",
-    "test": "npm run lint"
+    "test": "npm run lint",
+    "deploy": "node ./node_modules/vue-gh-pages/index.js"
   },
+  "homepage": "https://github.com/jaden5165/admin",
   "dependencies": {
     "axios": "0.18.0",
     "element-ui": "2.4.6",
